@@ -1,0 +1,28 @@
+
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../../../../node_modules/bootstrap/scss/functions";
+
+// // 2. Include any default variable overrides here
+// $primary: rgb(221, 27, 76);
+// $spacer: 1rem;
+// $enable-smooth-scroll: false;
+
+// // 3. Include remainder of required Bootstrap stylesheets
+// @import "../../../../node_modules/bootstrap/scss/variables";
+// @import "../../../../node_modules/bootstrap/scss/mixins";
+// @import "../../../../node_modules/bootstrap/scss/root";
+
+// // 4. Include any optional Bootstrap CSS as needed
+// @import "../../../../node_modules/bootstrap/scss/utilities";
+// @import "../../../../node_modules/bootstrap/scss/reboot";
+
+// // 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "../../../../node_modules/bootstrap/scss/utilities/api";
+// @import "../../../../node_modules/bootstrap/scss/grid";
+
+// // 6. Add additional custom code here
+
+// .btn{
+//     padding: 0.65rem 1.5rem;
+//     min-width: 20rem;
+// }
