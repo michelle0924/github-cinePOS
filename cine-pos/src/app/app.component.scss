@@ -1,4 +1,20 @@
+/** 專案用色 */
+
 $bg-coloer:#363636;
+
+
+/** navbar scss*/
+$navbar-dark-color:                 rgba($white, .55);
+$navbar-dark-hover-color:           rgba($white, .75);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color:  rgba($white, .1);
+
+$navbar-dark-brand-color:                 $navbar-dark-active-color;
+$navbar-dark-brand-hover-color:           $navbar-dark-active-color;
+
+
 
 .container-bg{
   background-color: $bg-coloer;
@@ -7,16 +23,18 @@ $bg-coloer:#363636;
 
 .navbar-brand{
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img{
+    margin-right: 0.5rem;
+  }
 }
 
+main{
+  padding-top: 55px;
 
-.navbar-toggler, .mobile-menu-overlay{
-  display: none;
-}
-
-
-.done{
-  display: none;
 }
 
 // .logo {
@@ -29,32 +47,10 @@ $bg-coloer:#363636;
 //   background-size: contain;
 // }
 
-.mobile-menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-}
-
-.mobile-menu {
-  background-color: #fff;
-  padding: 16px;
-}
-
 @media (min-width: 992px) {
-  .mobile-menu-overlay {
-    display: none;
-  }
+
 }
 
 @media (max-width: 992px) {
-  .navbar-toggler, .mobile-menu-overlay{
-    display: block;
-  }
+
 }
