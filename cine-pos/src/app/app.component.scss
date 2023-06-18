@@ -1,51 +1,26 @@
-/** 專案用色 */
 
-$bg-coloer:#363636;
-
-
-/** navbar scss*/
-$navbar-dark-color:                 rgba($white, .55);
-$navbar-dark-hover-color:           rgba($white, .75);
-$navbar-dark-active-color:          $white;
-$navbar-dark-disabled-color:        rgba($white, .25);
-$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-$navbar-dark-toggler-border-color:  rgba($white, .1);
-
-$navbar-dark-brand-color:                 $navbar-dark-active-color;
-$navbar-dark-brand-hover-color:           $navbar-dark-active-color;
-
-
-
-.container-bg{
-  background-color: $bg-coloer;
-  min-height: 100vh;
+.home-bg-banner{
+  background-image: url(/cine-pos/src/assets/images/bg/bg1.png);
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  padding-top: 60px;
 }
 
-.navbar-brand{
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  img{
-    margin-right: 0.5rem;
-  }
+.multiple-bg {
+  background-image: url('../assets/images/bg/bg2.png'), url('../assets/images/bg/bg3.png'), url('../assets/images/bg/bg4.png'); /* 設定多個背景圖片 */
+  background-repeat: no-repeat, no-repeat, no-repeat; /* 設定背景重複方式 */
+  background-position: bottom left, top right, bottom right; /* 設定背景位置 */
+  background-size: 243px, 250px, 250px; /* 設定背景尺寸 */
+  backdrop-filter: blur(10px); /* 設定模糊效果 */
 }
 
-main{
-  padding-top: 55px;
+.navbar-nav{
+  min-width: 350px;
 
 }
 
-// .logo {
-//   width: 30px;
-//   height: 30px;
-//   margin-right: 8px;
-//   background-image: url(../assets/images/logo/logo.svg);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: contain;
-// }
 
 @media (min-width: 992px) {
 
