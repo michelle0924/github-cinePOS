@@ -24,8 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/assets/images/cine-pos.ico",
-              "src/assets"
+              "src/assets",
+              "src/cine-pos.ico"
             ],
             "styles": [
               "src/styles.scss"
@@ -94,8 +94,8 @@
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/assets/images/cine-pos.ico",
-              "src/assets"
+              "src/assets",
+              "src/cine-pos.ico"
             ],
             "styles": [
               "src/styles.scss"
