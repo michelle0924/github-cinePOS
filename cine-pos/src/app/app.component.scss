@@ -4,21 +4,47 @@
   background-position-y: 70%;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100vh;
-  padding-top: 60px;
+  min-height: 600px;
+  padding-top: 94px;
 }
 
 .multiple-bg {
-  background-image: url('../assets/images/bg/bg2.png'), url('../assets/images/bg/bg3.png'), url('../assets/images/bg/bg4.png'); /* 設定多個背景圖片 */
+  background-image: url('../assets/images/bg/bg2.png'), url('../assets/images/bg/bg3.png'); /* 設定多個背景圖片 */
   background-repeat: no-repeat, no-repeat, no-repeat; /* 設定背景重複方式 */
-  background-position: bottom left, top right, bottom right; /* 設定背景位置 */
-  background-size: 243px, 250px, 250px; /* 設定背景尺寸 */
+  background-position: top 300px left -100px, top -80px right 15%; /* 設定背景位置 */
+  background-size: 243px, 200px; /* 設定背景尺寸 */
   backdrop-filter: blur(10px); /* 設定模糊效果 */
 }
 
-.navbar-nav{
-  min-width: 350px;
+.multiple-bg-1 {
+  background-image: url('../assets/images/bg/bg5.png'); /* 設定多個背景圖片 */
+  background-repeat: no-repeat; /* 設定背景重複方式 */
+  background-position: top  right -20px; /* 設定背景位置 */
+  background-size: 200px; /* 設定背景尺寸 */
+  backdrop-filter: blur(10px); /* 設定模糊效果 */
+}
 
+.home-cont-icon{
+  width: 558px;
+  max-width: 100%;
+}
+
+.navbar-nav{
+  min-width: 400px;
+
+}
+.container-558{
+  width: 558px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.pross-cont{
+  width: 675px;
+  max-width: 100;
+  box-sizing: border-box;
+  padding: 48px;
+  border-radius: 12px;
 }
 
 
