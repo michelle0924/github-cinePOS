@@ -36,8 +36,8 @@ a{
   background-image: url('../assets/images/bg/bg-ellipse.png'); /* 設定多個背景圖片 */
   background-repeat: no-repeat; /* 設定背景重複方式 */
   background-position: center  center; /* 設定背景位置 */
-  background-size: cover; /* 設定背景尺寸 */
-  backdrop-filter: blur(10px); /* 設定模糊效果 */
+  background-size: 1000px; /* 設定背景尺寸 */
+  min-height: 700px;
 }
 
 .border-radius-15{

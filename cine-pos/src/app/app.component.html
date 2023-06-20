@@ -34,9 +34,12 @@
     <div class="home-bg-banner multiple-bg">
       <div class="container d-flex justify-content-between align-items-start align-items-lg-center container-features">
         <div class="container-features-text">
-          <p class="display-1 gradient-text lh-base fw-bolder">讓電影體驗更完美<br>從CinePOS開始</p>
+          <ngx-typed-js [strings]="['','讓電影體驗更完美<br>從CinePOS開始']" [startDelay]="0" [typeSpeed]="100" [shuffle]="true" [contentType]="'html'">
+            <p class="display-1 gradient-text lh-base fw-bolder typing"></p>
+          </ngx-typed-js>
+
           <p class="fs-3 text-color-gray lh-lg pt-3 pb-3">從容應對您的零售挑戰，打造更高效、更智能的商業體驗</p>
-          <button class="btn btn-cust fs-5 btn-width-240">開始瞭解</button>
+          <a href="https://web.cine-pos.com/" target="_blank"><button class="btn btn-cust fs-5 btn-width-240">開始瞭解</button></a>
         </div>
         <div class="container-features-img">
           <img class="home-cont-icon" src="/assets/images/logo/logo-backstage.svg" alt="">
@@ -263,8 +266,8 @@
 
 
     <!--馬上體驗-->
-
-    <div class="container container-experience multiple-bg-2 pt-5 mt-5">
+  <div class="multiple-bg-2 container-fluid g-0 pt-5 mt-5 d-flex align-items-center">
+    <div class="container container-experience" style="background: transparent;">
       <ul class=" experience-nav d-flex justify-content-center justify-content-lg-between flex-wrap list-group list-group-horizontal-lg">
         <li>
           <div class="experience-box d-flex justify-center align-items-center">
@@ -297,6 +300,10 @@
       </ul>
 
     </div>
+
+
+  </div>
+
 
 </main>
 
